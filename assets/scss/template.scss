@@ -1,9 +1,71 @@
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
+  background-color: rgb(231, 218, 203);
+  font-size: 3.25rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  line-height: 2.25;
+}
+// #contact > div.container > div > div.section-heading.col-12.mb-3.text-center {
+//   text-align: center;
+//   background-color: rgb(231, 218, 203);
+//   line-height: 3.25;
+// }
+// .mb-0 h1 {
+//   text-align: center;
+//   background-color: rgb(231, 218, 203);
+//   font-size: 3.25rem;
+//   margin-top: -1rem;
+//   margin-bottom: 2rem;
+//   line-height: 3.25;
+// }
+
+//home welcome
+#welcome > div.container > div > div.col-12.col-md-6.text-center.text-md-left > div > p {
+  font-size: 1.05rem;
+}
+
+//contact map
+#map {
+  width: 80vw;
+  height: 80vh;
+  text-align: center;
+  margin: auto;
+  margin-top: -5%;
 }
 
 // Center the CTA shortcode button
 .cta-group {
   justify-content: center;
+}
+
+#undergraduate-courses, #graduate-courses{
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.toc-inpage.d-print-none{
+  position: fixed;
+  display:inline;
+  right: -2%;
+  width: 250px;
+}
+
+.share-box{
+  display: none;
+}
+
+.powered-by{
+  display: none;
+}
+
+
+//post 
+#news > div.container > div > div:nth-child(2) > div:nth-child(1) > div.media-body > a > div {
+  display: none;
+}
+
+#news > div.container > div > div:nth-child(2) > div:nth-child(3) > div.media-body > a > div{
+  display: none;
 }

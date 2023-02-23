@@ -1,57 +1,60 @@
 ---
-# An instance of the Contact widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: contact
-
-# This file represents a page section.
 headless: true
-
-# Order that this section appears on the page.
 weight: 10
 
-title: Contact
+title: 联系我们
 subtitle:
 
 content:
-  # Contact (edit or remove options as required)
-
-  email: test@example.org
-  phone: 888 888 88 88
-  address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
-  coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-  office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
-  #contact_links:
-  #  - icon: comments
-  #    icon_pack: fas
-  #    name: Discuss on Forum
-  #    link: 'https://discourse.gohugo.io'
-
-  # Automatically link email and phone or display as text?
-  autolink: true
-
-  # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
-
+  email:  陈柳青 chenlq@zju.edu.cn
+  address: 
+    street:
+    city: 浙江
+    region: 杭州
+    postcode: 浙江大学紫金港校区月牙楼403
+    country: 中国
+    # country_code: ZH-CN
+  # coordinates:
+  #   latitude: '30.3073'
+  #   longitude: '120.0818'
+  # autolink: true
 design:
   columns: '1'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+> ## 招收对象
+
++ 本科实习生（平时、暑期均可）、硕士、博士、博士后、科研助理
+
+<br>
+
+> ## 专业背景要求
+
++ 设计类（工业设计、产品设计、数字媒体等）
++ 计算机类（计科、软工、电科等）
++ 其它（数学、有编程基础的学科）
+
+<br>
+
+> ## 重要招生日期
+
++ 每年6月，实验室组织的暑期夏令营（大部分学生通过此渠道成为硕士、博士）
++ 每年9月，硕士、直博生推免（绝大部分学生源自此渠道）
++ 每年11月，普博报名（仅限有高水平论文发表的申请者）
+
+<br>
+
+> ## 招生注意事项
+
++ 包括但不限于浙江大学 计算机学院、软件学院
++ 硕士专业可选报：设计学、工业设计工程、计算机科学、电子信息、人工智能（限特别优秀者）
++ 博士专业可选报：设计学、计算机科学与技术、电子信息
++ 双向了解：请有意加入本实验室的同学尽早联系，积累至少1-3个月的实习经历为宜。
+
+<br>
+
+> ## 博士后、科研助理招聘
+
++ 具体招聘信息可参见[此链接](https://job.cingta.com/detail/80273)（长期有效）
++ 欢迎有跨专业、跨领域想法、热爱科研的人员加入

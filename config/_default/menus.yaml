@@ -4,21 +4,34 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
+  - name: 主页
+    url: "/"
     weight: 10
-  - name: News
-    url: post
-    weight: 20
-  - name: People
-    url: people
-    weight: 30
-  - name: Events
-    url: event
-    weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
-  - name: Contact
+
+  - name: 加入我们
     url: contact
+    weight: 20
+
+  - name: 研究
+    url: project
+    weight: 30
+
+  - name: 论文
+    url: publication
+    weight: 40
+
+  - name: 报告
+    url: talk
+    weight: 50
+
+  - name: 课程
+    url: course
     weight: 60
+    identifier: courses
+
+  - name: 成员
+    url: people
+    weight: 70
+  # - name: 英文网
+  #   url: 'https://TsangEyan.github.io/'
+  #   weight: 70
