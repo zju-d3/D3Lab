@@ -20,9 +20,9 @@ main:
     url: publication
     weight: 40
 
-  - name: 报告
-    url: talk
-    weight: 50
+  # - name: 报告
+  #   url: talk
+  #   weight: 50
 
   - name: 课程
     url: course
