@@ -1,7 +1,3 @@
-# D3-Lab-zh
+# D3-Lab
 
-[CMS编辑]()
-
-
-
-[D3Lab-zh](https://tsangeyan.github.io/TED3Lab-zh.github.io/)
+https://zju-d3.github.io/

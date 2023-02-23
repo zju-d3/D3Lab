@@ -5,7 +5,7 @@
 
 title: D3Lab # Website name
 # baseURL: 'https://zju-lab.netlify.app' # Website URL
-baseURL: 'https://tsangeyan.github.io/TED3Lab-zh.github.io/'
+baseURL: "https://zju-d3.github.io"
 
 ############################
 ## LANGUAGE
@@ -37,10 +37,10 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  publication_types: "/publication-type/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
