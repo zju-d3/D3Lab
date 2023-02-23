@@ -7,7 +7,7 @@ title: 联系我们
 subtitle:
 
 content:
-  email:  陈柳青 chenlq@zju.edu.cn
+  email:  chenlq@zju.edu.cn
   address: 
     street:
     city: 浙江
