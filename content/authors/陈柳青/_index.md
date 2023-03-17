@@ -41,7 +41,8 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: chenlq@zju.edu.cn
+    # link: 'mailto:chenlq@zju.edu.cn'
+    link: 'mailto:test@example.org'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=zh-CN&user=WdOAe_gAAAAJ
@@ -64,7 +65,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Advisor
+  - Supervisor
 ---
 
 陈柳青，“百人计划”研究员，博士生导师（计算机科学与技术、设计学、电子信息），于2020年9月加入浙江大学计算机学院。在此之前，他是英国初创公司 Verchable Ltd. 的首席数据科学家，拥有英国特殊人才签证（现名“全球人才签证”），曾创立过人工智能公司 Smart-Pix，并入选英国顶级孵化器 Entrepreneur First 的人才计划。博士毕业于帝国理工学院，师从英国皇家工程院院士 Peter R.N. Childs 。目前也是中英人工智能协会的执委会委员。
