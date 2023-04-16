@@ -10,11 +10,11 @@ authors:
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
-date: '2022-06-18T00:00:00Z'
+date: '2023-03-27T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-06-18T00:00:00Z'
+publishDate: '2023-03-27T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -39,7 +39,7 @@ featured: false
 links:
 - name: Paper Link
   url: 'https://doi.org/10.1631/FITEE.2200099 '
-url_pdf: '/journal1.pdf'
+url_pdf: './journal1.pdf'
 url_code: 'https://github.com/zju-d3/uilm'
 url_dataset: ''
 url_poster: ''

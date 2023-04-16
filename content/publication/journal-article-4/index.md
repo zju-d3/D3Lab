@@ -7,11 +7,11 @@ authors:
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
-date: '2022-04-16T00:00:00Z'
+date: '2023-03-29T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-09-22T00:00:00Z'
+publishDate: '2023-03-29T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -36,7 +36,7 @@ featured: false
 links:
 - name: Paper Link
   url: 'https://doi.org/10.1115/1.4062232'
-url_pdf: '/journal4.pdf'
+url_pdf: './journal4.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

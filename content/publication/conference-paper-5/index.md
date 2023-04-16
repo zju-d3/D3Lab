@@ -6,7 +6,7 @@ authors:
   - Liu Huiting
   - 陈柳青
   - et al
-date: '2022-08-17T00:00:00Z'
+date: '2022-11-11T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -33,7 +33,7 @@ featured: true
 links:
   - name: Paper Link
     url: 'https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/V006T06A001/1150556'
-url_pdf: '/paper5.pdf'
+url_pdf: './paper5.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
