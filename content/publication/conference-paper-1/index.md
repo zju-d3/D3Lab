@@ -32,7 +32,7 @@ featured: true
 links:
   - name: Paper Link
     url: 'https://doi.org/10.1017/S0890060423000069'
-url_pdf: './paper1.pdf'
+url_pdf: 'publication/conference-paper-1/conference-paper-1.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

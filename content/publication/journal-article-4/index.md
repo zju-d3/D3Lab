@@ -36,7 +36,7 @@ featured: false
 links:
 - name: Paper Link
   url: 'https://doi.org/10.1115/1.4062232'
-url_pdf: './journal4.pdf'
+url_pdf: 'publication/journal-article-4/journal-article-4.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
