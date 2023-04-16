@@ -31,8 +31,8 @@ featured: true
 
 links:
   - name: Paper Link
-    url: '#'
-url_pdf: ''
+    url: 'https://doi.org/10.1007/978-3-031-20500-2_3'
+url_pdf: '/2022-CICAI-Cai-CICAI_Browsing_Behavioral_Intent_Prediction_on_Product_Recommendation_Pages_of_E_commerce_Platform (6).pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
