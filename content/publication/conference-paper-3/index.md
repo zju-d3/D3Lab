@@ -5,11 +5,11 @@ authors:
   - Zhen Y
   - He M
   - et al
-date: '2022-08-27T00:00:00Z'
+date: '2023-01-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-08-27T00:00:00Z'
+publishDate: '2023-01-01T00:00:00Z'
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
@@ -20,10 +20,9 @@ publication_types: ['1']
 publication: In *Artificial Intelligence Second CAAI International Conference*
 publication_short: In *CICAI 2022*
 
-abstract: 
-
+abstract: User behavior data has always been the key for e-commerce platforms to make decisions and improve experience, especially when predicting users’ behavioral intent. Nowadays, the Product Recommendation Page (PRP) has played an increasingly significant role of e-commerce platforms with the popularity of recommendation systems. However, past research on predicting user behavioral intent across e-commerce platforms may not be applicable to PRPs, where users have different characteristics. In this research, users’ browsing behavioral intent of PRPs is studied and predicted. A large amount of user data of PRPs is collected and processed, and the corresponding dataset is built. After that, a user interest analysis method is proposed while five browsing intent prediction models are applied and compared. The method distinguishes users with different browsing interest degrees, and the models can better predict users’ browsing behavior intent within different interest groups. A validation experiment on the large-scale dataset shows that the proposed method can predict user browsing intent with a decent performance.
 # Summary. An optional shortened abstract.
-summary: An optional shortened abstract.
+# summary: An optional shortened abstract.
 
 tags:
   - Publication
@@ -32,7 +31,7 @@ featured: true
 links:
   - name: Paper Link
     url: 'https://doi.org/10.1007/978-3-031-20500-2_3'
-url_pdf: '/paper3.pdf'
+url_pdf: './paper3.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
