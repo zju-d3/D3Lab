@@ -91,7 +91,63 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure></description></item><item><title>基于手绘草图的矢量UI图标生成</title><link>https://zju-d3.github.io/project/project_1/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://zju-d3.github.io/project/project_1/</guid><description>&lt;p>free-hand sketches, GAN, vectorization&lt;/p>
 &lt;h2 id="项目简介">项目简介&lt;/h2>
 &lt;p>手绘草图作为一种能够快速传递人们脑海中想法的工具, 在UI/UX设计领域中, 能够帮助设计师快速表达、交流他们的设计意图. 通常在UI图标设计的前期, 设计师们在白板上绘制低保真草图, 表达最终产品的设计原型. 然而, 在UI图标设计的实现阶段, 手绘草图仅仅扮演指导角色, 无法参与具体设计实现过程, 设计师需要借助额外的软件按照草图表达的设计意图, 从零开始制作UI设计原型. 前人的文献中尚未研究基于手绘草图直接生成UI图标设计原型, 如何将UI图标手绘草图表达的设计意图转换为矢量的、可编辑的标准UI图标是本文的研究重点. 本文提出了一种方法, 尝试缩短草图表达与具体设计过程的差距, 即基于草图表达的设计意图, 生成矢量化可编辑的UI图标雏形, 这样设计师不必从头开始制作UI图标, 而是在已有的UI图标雏形上进行修改编辑, 这能够帮助提升UI设计师的设计效率.&lt;/p></description></item><item><title>2023年4月 论文被ICED23会议接收</title><link>https://zju-d3.github.io/post/23-04-iced23/</link><pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate><guid>https://zju-d3.github.io/post/23-04-iced23/</guid><description>&lt;br>
-&lt;p>论文“A knowledge-based ideation approach for bio-inspired design”被设计学国际会议 ICED23 (24th International Conference on Engineering Design) 接收，主要贡献者包括 左浩宇、蔡泽斌和陈柳青，由本实验室和帝国理工学院合作完成。&lt;/p></description></item><item><title>A Comparison Study of Human and Machine Generated Creativity</title><link>https://zju-d3.github.io/publication/journal-article-4/</link><pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate><guid>https://zju-d3.github.io/publication/journal-article-4/</guid><description>&lt;!--
+&lt;p>论文“A knowledge-based ideation approach for bio-inspired design”被设计学国际会议 ICED23 (24th International Conference on Engineering Design) 接收，主要贡献者包括 左浩宇、蔡泽斌和陈柳青，由本实验室和帝国理工学院合作完成。&lt;/p></description></item><item><title>杭州龙坞团建</title><link>https://zju-d3.github.io/post/23-04-09-team/</link><pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate><guid>https://zju-d3.github.io/post/23-04-09-team/</guid><description>&lt;p>实验室团建活动&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/post/23-04-09/1_hu03275560e7dfb8dbc6c64f32ec0a8152_1034275_6f0c806b63570981fb7412542bf03259.webp 400w,
+/media/post/23-04-09/1_hu03275560e7dfb8dbc6c64f32ec0a8152_1034275_2a6d4d6b9818cbadb1f5282258ac18e2.webp 760w,
+/media/post/23-04-09/1_hu03275560e7dfb8dbc6c64f32ec0a8152_1034275_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zju-d3.github.io/media/post/23-04-09/1_hu03275560e7dfb8dbc6c64f32ec0a8152_1034275_6f0c806b63570981fb7412542bf03259.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/post/23-04-09/2_hu03275560e7dfb8dbc6c64f32ec0a8152_1513581_e5ff621c01ede5a6351fc38391797952.webp 400w,
+/media/post/23-04-09/2_hu03275560e7dfb8dbc6c64f32ec0a8152_1513581_1b0d19226cf6a18fdf290590c16ac4b8.webp 760w,
+/media/post/23-04-09/2_hu03275560e7dfb8dbc6c64f32ec0a8152_1513581_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zju-d3.github.io/media/post/23-04-09/2_hu03275560e7dfb8dbc6c64f32ec0a8152_1513581_e5ff621c01ede5a6351fc38391797952.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/post/23-04-09/3_hue07f416492acfd98450a99fac83d5a76_1190666_c6810d42cb56507084da397e16f6466a.webp 400w,
+/media/post/23-04-09/3_hue07f416492acfd98450a99fac83d5a76_1190666_c64305152aefaa655c8909d8f577d218.webp 760w,
+/media/post/23-04-09/3_hue07f416492acfd98450a99fac83d5a76_1190666_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zju-d3.github.io/media/post/23-04-09/3_hue07f416492acfd98450a99fac83d5a76_1190666_c6810d42cb56507084da397e16f6466a.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/post/23-04-09/4_hu229a771882f9c095a242b17010709716_2909395_5b76d9ae6887939a3e5052c66a3d9521.webp 400w,
+/media/post/23-04-09/4_hu229a771882f9c095a242b17010709716_2909395_7a215560dffad8c75520fd8383b7d31d.webp 760w,
+/media/post/23-04-09/4_hu229a771882f9c095a242b17010709716_2909395_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zju-d3.github.io/media/post/23-04-09/4_hu229a771882f9c095a242b17010709716_2909395_5b76d9ae6887939a3e5052c66a3d9521.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/post/23-04-09/5_hue0d819639b37e02156849a79391f42a7_7092381_bab5bd0941dad11532d4d1a74f3e8c56.webp 400w,
+/media/post/23-04-09/5_hue0d819639b37e02156849a79391f42a7_7092381_85e4a6abc949ae59ca0814670a5e7dfb.webp 760w,
+/media/post/23-04-09/5_hue0d819639b37e02156849a79391f42a7_7092381_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zju-d3.github.io/media/post/23-04-09/5_hue0d819639b37e02156849a79391f42a7_7092381_bab5bd0941dad11532d4d1a74f3e8c56.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/p></description></item><item><title>A Comparison Study of Human and Machine Generated Creativity</title><link>https://zju-d3.github.io/publication/journal-article-4/</link><pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate><guid>https://zju-d3.github.io/publication/journal-article-4/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
