@@ -38,7 +38,7 @@ featured: false
 
 links:
 - name: Paper Link
-  url: 'https://arxiv.org/abs/2206.13389'
+  url: 'https://doi.org/10.1631/FITEE.2200099 '
 url_pdf: ''
 url_code: 'https://github.com/zju-d3/uilm'
 url_dataset: ''

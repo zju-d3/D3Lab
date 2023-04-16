@@ -32,8 +32,8 @@ featured: true
 
 links:
   - name: Paper Link
-    url: 'https://link.springer.com/chapter/10.1007/978-3-031-20500-2_25'
-url_pdf: ''
+    url: 'https://doi.org/10.1007/978-3-031-20500-2_25'
+url_pdf: '/paper4.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
