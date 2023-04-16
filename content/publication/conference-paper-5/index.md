@@ -33,7 +33,7 @@ featured: true
 links:
   - name: Paper Link
     url: 'https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/V006T06A001/1150556'
-url_pdf: './paper5.pdf'
+url_pdf: 'publication/conference-paper-5/conference-paper-5.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -39,7 +39,7 @@ featured: false
 links:
 - name: Paper Link
   url: 'https://doi.org/10.1631/FITEE.2200099 '
-url_pdf: './journal1.pdf'
+url_pdf: 'publication/journal-article-1/journal-article-1.pdf'
 url_code: 'https://github.com/zju-d3/uilm'
 url_dataset: ''
 url_poster: ''
