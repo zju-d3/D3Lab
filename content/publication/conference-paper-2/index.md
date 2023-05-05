@@ -32,7 +32,7 @@ featured: true
 
 links:
   - name: Paper Link
-    url: '#'
+    url: 'https://doi.org/10.1145/3544548.3581446'
 url_pdf: ''
 url_code: ''
 url_dataset: ''
