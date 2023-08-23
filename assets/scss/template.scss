@@ -26,6 +26,11 @@
   font-size: 0.93rem;
 }
 
+// home post
+div.stream-meta.article-metadata > div {
+  display: none;
+}
+
 //contact map
 #map {
   width: 80vw;
