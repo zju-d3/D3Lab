@@ -21,6 +21,7 @@ content:
     - Master Students
     - Undergraduate Students
     - Visiting Scholars
+    - Research Assistant
     - Alumni
     - Visitors
 design:
