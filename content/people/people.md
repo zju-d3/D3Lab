@@ -19,9 +19,10 @@ content:
     - Supervisor
     - Ph.D. Students
     - Master Students
+    - Research Assistant
     - Undergraduate Students
     - Visiting Scholars
-    - Research Assistant
+    
     - Alumni
     - Visitors
 design:
