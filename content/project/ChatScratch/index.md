@@ -1,5 +1,5 @@
 ---
-title: ChatScratch:An AI-Augmented System Toward Autonomous Visual Programming Learning for Children Aged 6-12
+title: ChatScratch：面向6至12岁儿童的自主视觉编程学习AI系统
 authors:
   - 陈柳青
   - xsh

@@ -1,5 +1,5 @@
 ---
-title: DesignFusion:生成模型支持的概念设计软件
+title: DesignFusion：生成模型支持的概念设计软件
 authors:
   - 陈柳青
   - jqz

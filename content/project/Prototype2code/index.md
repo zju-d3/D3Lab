@@ -1,5 +1,5 @@
 ---
-title: Prototype2code:End-to-end Front-end Code Generation From UI Design Prototypes
+title: Prototype2code：从UI设计原型到端到端前端代码生成
 authors:
   - 陈柳青
   - xsh
