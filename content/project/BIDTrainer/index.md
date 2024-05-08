@@ -1,5 +1,5 @@
 ---
-title: MindScratch:基于多模态生成模型的可视化编程支持工具
+title: BIDTrainer：为设计领域提供了许多来自生物学的创新方案
 authors:
   - 陈柳青
   - jzj

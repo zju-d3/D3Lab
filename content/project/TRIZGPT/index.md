@@ -1,11 +1,9 @@
 ---
-
 title: TRIZGPT：一种大语言模型赋能的问题解决方法
 authors:
-
-- 陈柳青
-- syx
-- dsx
+  - 陈柳青
+  - syx
+  - dsx
 
 date: 2024-05-01
 weight: 10
@@ -14,8 +12,7 @@ math: true
 highlight: true
 
 tags:
-
-- LLMs
+  - LLMs
 
 # Featured image
 
@@ -25,7 +22,9 @@ image:
 caption: ""
 focal_point: ""
 preview_only: false
----TRIZ 理论；大语言模型；问题解决方法；评估实验
+---
+
+TRIZ 理论；大语言模型；问题解决方法；评估实验
 
 <!--more-->
 

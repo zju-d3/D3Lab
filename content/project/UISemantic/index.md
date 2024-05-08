@@ -1,5 +1,5 @@
 ---
-title: UI semantic component group detection:Grouping UI elements with similar semantics in mobile graphical user interface
+title: UI元素语义分组研究
 authors:
   - 陈柳青
   - xsh

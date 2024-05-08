@@ -1,5 +1,5 @@
 ---
-title: An Artificial Intelligence Approach for Interpreting Creative Combinational Designs
+title: 基于人工智能的创意组合设计解释
 authors:
   - 陈柳青
   - xsh
