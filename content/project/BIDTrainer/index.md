@@ -1,5 +1,5 @@
 ---
-title: BIDTrainer：为设计领域提供了许多来自生物学的创新方案
+title: BIDTrainer：一款帮助学生理解和推理仿生设计方案的教育工具
 authors:
   - 陈柳青
   - jzj
