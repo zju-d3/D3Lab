@@ -12,7 +12,6 @@ math: true
 highlight: true
 
 tags:
-  - VR
   - LLMs
 
 # Featured image
