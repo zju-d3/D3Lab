@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 2022级硕士生
+role: 2022级博士生
 
 # Organizations/Affiliations
 organizations:
@@ -63,5 +63,5 @@ organizations:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - Ph.D. Students
 ---
