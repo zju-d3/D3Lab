@@ -22,7 +22,6 @@ content:
     - Research Assistant
     - Undergraduate Students
     - Visiting Scholars
-    - Graduate Student
     - Alumni
     - Visitors
 design:
