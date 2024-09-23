@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 施楚宁
+title: 丁世贤
 
 # Username (this should match the folder name)
 authors:
-  - 施楚宁
+  - 丁世贤
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 2022级本科生
+role: 2024级硕士生
 
 # Organizations/Affiliations
 organizations:
@@ -63,8 +63,5 @@ organizations:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Undergraduate Students
+  - Master Students
 ---
-22届 计科
-
-去向：字节跳动
