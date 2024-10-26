@@ -22,13 +22,25 @@
 // }
 
 //home welcome
-#welcome > div.container > div > div.col-12.col-md-6.text-center.text-md-left > div > p {
+#welcome
+  > div.container
+  > div
+  > div.col-12.col-md-6.text-center.text-md-left
+  > div
+  > p {
   font-size: 0.93rem;
 }
 
 // home post
 div.stream-meta.article-metadata > div {
   display: none;
+}
+
+// home video
+#video > div.container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中，如果需要的话 */
 }
 
 //contact map
@@ -45,19 +57,20 @@ div.stream-meta.article-metadata > div {
   justify-content: center;
 }
 
-#undergraduate-courses, #graduate-courses{
+#undergraduate-courses,
+#graduate-courses {
   text-align: center;
   font-size: 2.3rem;
 }
 
-.toc-inpage.d-print-none{
+.toc-inpage.d-print-none {
   position: fixed;
-  display:inline;
+  display: inline;
   right: -2%;
   width: 250px;
 }
 
-.share-box{
+.share-box {
   display: none;
 }
 
@@ -65,16 +78,36 @@ div.stream-meta.article-metadata > div {
 //   display: none;
 // }
 
-
-//post 
-#news > div.container > div > div:nth-child(2) > div:nth-child(1) > div.media-body > a > div {
+//post
+#news
+  > div.container
+  > div
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div.media-body
+  > a
+  > div {
   display: none;
 }
 
-#news > div.container > div > div:nth-child(2) > div:nth-child(2) > div.media-body > a > div{
+#news
+  > div.container
+  > div
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div.media-body
+  > a
+  > div {
   display: none;
 }
 
-#news > div.container > div > div:nth-child(2) > div:nth-child(3) > div.media-body > a > div{
+#news
+  > div.container
+  > div
+  > div:nth-child(2)
+  > div:nth-child(3)
+  > div.media-body
+  > a
+  > div {
   display: none;
 }
