@@ -2,12 +2,12 @@
 title: 'Layout Generation for Various Scenarios in Mobile Shopping Applications'
 authors:
   - jqz
-  - Zhou T
+  - Tingting Zhou
   - zyx
   - 陈柳青
   - et al
 date: '2023-01-23T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1145/3544548.3581446'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-01-23T00:00:00Z'
@@ -28,11 +28,12 @@ summary: An optional shortened abstract.
 
 tags:
   - Publication
+  - CCF-A
 featured: true
 
-links:
-  - name: Paper Link
-    url: 'https://doi.org/10.1145/3544548.3581446'
+# links:
+#   - name: Paper Link
+#     url: 'https://doi.org/10.1145/3544548.3581446'
 url_pdf: ''
 url_code: ''
 url_dataset: ''

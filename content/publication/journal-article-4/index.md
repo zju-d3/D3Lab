@@ -8,7 +8,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 date: '2023-03-29T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1115/1.4062232'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-03-29T00:00:00Z'
@@ -31,11 +31,12 @@ abstract: Creativity is a fundamental feature of human intelligence. However, ac
 
 tags:
   - Publication
+  - SCI
 featured: false
 
-links:
-- name: Paper Link
-  url: 'https://doi.org/10.1115/1.4062232'
+# links:
+# - name: Paper Link
+#   url: 'https://doi.org/10.1115/1.4062232'
 url_pdf: 'publication/journal-article-4/journal-article-4.pdf'
 url_code: ''
 url_dataset: ''

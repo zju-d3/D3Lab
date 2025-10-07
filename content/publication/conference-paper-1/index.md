@@ -6,7 +6,7 @@ authors:
   - 陈柳青
   - et al
 date: '2023-03-23T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1017/S0890060423000069'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-03-23T00:00:00Z'
@@ -27,11 +27,12 @@ abstract: In the field of content generation by machine, the state-of-the-art te
 
 tags:
   - Publication
+  - SCI
 featured: true
 
-links:
-  - name: Paper Link
-    url: 'https://doi.org/10.1017/S0890060423000069'
+# links:
+#   - name: Paper Link
+#     url: 'https://doi.org/10.1017/S0890060423000069'
 url_pdf: 'publication/conference-paper-1/conference-paper-1.pdf'
 url_code: ''
 url_dataset: ''

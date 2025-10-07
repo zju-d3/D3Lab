@@ -1,9 +1,9 @@
 ---
 title: 'A Study of the Exploratory Creativity Performance Between Machine and Human Designers'
 authors:
-  - Yin Yuan
+  - Yuan Yin
   - qkt
-  - Liu Huiting
+  - Huiting Liu
   - 陈柳青
   - et al
 date: '2022-11-11T00:00:00Z'

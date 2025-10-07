@@ -2,11 +2,12 @@
 title: 'Browsing Behavioral Intent Prediction on Product Recommendation Pages of E-commerce Platform'
 authors:
   - czb
-  - Zhen Y
-  - He M
+  - Yankun Zhen
+  - Mingrui He
+  - 陈柳青
   - et al
 date: '2023-01-01T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1007/978-3-031-20500-2_3'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-01-01T00:00:00Z'
@@ -28,9 +29,9 @@ tags:
   - Publication
 featured: true
 
-links:
-  - name: Paper Link
-    url: 'https://doi.org/10.1007/978-3-031-20500-2_3'
+# links:
+#   - name: Paper Link
+#     url: 'https://doi.org/10.1007/978-3-031-20500-2_3'
 url_pdf: 'publication/conference-paper-3/conference-paper-3.pdf'
 url_code: ''
 url_dataset: ''

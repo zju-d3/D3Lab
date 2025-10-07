@@ -7,7 +7,7 @@
 
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
-{{ $has_logo := fileExists "assets/media/logo.png" | or (fileExists "assets/media/logo.svg") }}
+{{ $has_logo := fileExists "assets/media/logo_light.png" | or (fileExists "assets/media/logo_light.svg") | or (fileExists "assets/media/logo_dark.png") | or (fileExists "assets/media/logo_dark.svg") | or (fileExists "assets/media/logo.png") | or (fileExists "assets/media/logo.svg")}}
 {{ $logo := "" }}
 {{ if $has_logo }}
   {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
@@ -21,9 +21,12 @@
       <div class="d-none d-lg-inline-flex">
         <a class="navbar-brand" href="{{ "/" | relLangURL }}">
           {{- if $has_logo -}}
-            <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-            {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-            {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
+            <img src="{{ $logo.light.RelPermalink }}" 
+                data-logo-light="{{ $logo.light.RelPermalink }}" 
+                data-logo-dark="{{ $logo.dark.RelPermalink }}"
+                alt="{{ site.Title }}"
+                {{with site.Params.header.image.width}}width="{{.}}"{{end}}
+                {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
           {{- else -}}
             {{- site.Title -}}
           {{- end -}}
@@ -213,4 +216,14 @@
     </div><!-- /.container -->
   </nav>
 </header>
+
+<script>
+document.addEventListener('wcThemeChange', function(e) {
+  const isDark = e.detail.isDarkTheme();
+  const logos = document.querySelectorAll('img[data-logo-light][data-logo-dark]');
+  logos.forEach(img => {
+    img.src = isDark ? img.dataset.logoDark : img.dataset.logoLight;
+  });
+});
+</script>
 {{end}}{{/* End show navbar. */}}

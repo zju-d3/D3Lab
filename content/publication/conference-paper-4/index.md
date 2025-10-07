@@ -2,12 +2,12 @@
 title: 'UI Layers Group Detector: Grouping UI Layers via Text Fusion and Box Attention'
 authors:
   - xsh
-  - Zhou Tingting
+  - Tingting Zhou
   - cyn
   - 陈柳青
   - et al
 date: '2023-01-01T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1007/978-3-031-20500-2_25'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-01-01T00:00:00Z'
@@ -30,9 +30,9 @@ tags:
   - Publication
 featured: true
 
-links:
-  - name: Paper Link
-    url: 'https://doi.org/10.1007/978-3-031-20500-2_25'
+# links:
+#   - name: Paper Link
+#     url: 'https://doi.org/10.1007/978-3-031-20500-2_25'
 url_pdf: 'publication/conference-paper-4/conference-paper-4.pdf'
 url_code: ''
 url_dataset: ''

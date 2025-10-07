@@ -1,0 +1,90 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $bg := $page.Params.design.background }}
+
+{{ if $page.Params.hero_media }}
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+{{ end }}
+
+    {{ with $page.Title }}
+      <h1 class="hero-title">{{ . | markdownify }}</h1>
+    {{ end }}
+
+    {{ with $page.Content }}
+      <div class="hero-lead">{{ . }}</div>
+    {{ end }}
+
+    {{/* Call-to-action link */}}
+    {{ if $page.Params.cta.url }}
+      {{ $pack := or $page.Params.cta.icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      {{ $link := $page.Params.cta.url }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = $link | relLangURL }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+    <p class="cta-btns">
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg mb-md-1">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
+
+      {{/* Alternative Call-to-action link */}}
+      {{ if $page.Params.cta_alt.url }}
+        {{ $link := $page.Params.cta_alt.url }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = $link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt btn-lg pl-md-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{/* Call-to-action note */}}
+    {{ with $page.Params.cta_note }}
+    <p class="hero-note text-muted mb-3 mb-md-1">
+      {{ .label | markdownify | emojify | safeHTML }}
+    </p>
+    {{ end }}
+
+    {{/* Hero video */}}
+    {{ if $page.Params.hero_media }}
+    </div>
+    <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media">
+      {{- $video := ($page.Parent.Resources.ByType "video").GetMatch $page.Params.hero_media -}}
+      {{- if not $video -}}
+        {{- $video = resources.Get (path.Join "media" $page.Params.hero_media) -}}
+      {{- end -}}
+      
+      {{ if $video }}
+        <!-- <video controls class="embed-responsive-item" preload="auto" loop muted controls oncanplay="playVideo()" style="width: 100%; height: auto; margin-top: 20px;"> -->
+        <video controls class="embed-responsive-item" preload="auto" loop controls style="width: 100%; height: auto; margin-top: 20px;">
+          <source src="{{ $video.RelPermalink }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {{ else }}
+        {{ if strings.HasPrefix $page.Params.hero_media "http" }}
+          {{/* Embedded video (e.g., YouTube) */}}
+          <div class="embed-responsive embed-responsive-16by9">
+            {{ $page.Params.hero_media | safeHTML }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    </div>  
+    
+    <!-- <script>
+      function playVideo() {
+        var video = document.querySelector('video');
+        video.play();
+      }
+    </script> -->
+{{ end }}

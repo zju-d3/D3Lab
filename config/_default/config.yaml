@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 浙江大学-陈柳青-D3Lab # Website name
+title: 浙江大学-陈柳青-ICILab # Website name
 # baseURL: 'https://zju-lab.netlify.app' # Website URL
-baseURL: "https://zju-d3.github.io"
+baseURL: "http://icilab.cn/"
 
 ############################
 ## LANGUAGE

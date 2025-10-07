@@ -29,3 +29,22 @@
         </span>
     </span>
 </p>
+
+
+{{ if or .Site.Params.footer.icp.enable .Site.Params.footer.police.enable }}
+  <div class="footer-links text-center mb-2" style="font-size: 0.8em">
+    {{ if .Site.Params.footer.icp.enable }}
+      <a href="{{ .Site.Params.footer.icp.link }}" target="_blank" rel="noopener">
+        {{ .Site.Params.footer.icp.text }}
+      </a>
+    {{ end }}
+    {{ if and .Site.Params.footer.icp.enable .Site.Params.footer.police.enable }}
+      <span style="margin: 0 5px;">|</span>
+    {{ end }}
+    {{ if .Site.Params.footer.police.enable }}
+      <a href="{{ .Site.Params.footer.police.link }}" target="_blank" rel="noopener">
+        {{ .Site.Params.footer.police.text }}
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

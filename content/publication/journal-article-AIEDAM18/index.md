@@ -1,0 +1,73 @@
+---
+title: 'A computational tool for creative idea generation based on analogical reasoning and ontology'
+authors:
+  - Ji Han
+  - Feng Shi
+  - 陈柳青
+  - Peter RN Childs
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+date: '2018-10-05T00:00:00Z'
+doi: ''
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2018-10-05T00:00:00Z'
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['2']
+
+# Publication name and optional abbreviated publication name.
+publication: In *Artificial Intelligence for Engineering Design, Analysis and Manufacturing*
+# publication_short: In *CICAI 2022*
+
+
+abstract: Analogy is a core cognition process used to produce inferences as well as new ideas using previous knowledge and experience. Ontology is a formal representation of a set of domain concepts and their relationships. The use of analogy and ontology in design activities to support design creativity have previously been explored. This paper explores an approach to construct ontologies with sufficient richness and coverage to support reasoning over real-world datasets for prompting creative idea generation. This approach has been implemented into a computational tool for assisting designers in generating creative ideas during the early stages of design. The tool, called “the Retriever”, has been developed based on ontology by embracing the aspects of analogical reasoning. A case study has indicated that the tool can be effective and useful for idea generation. The results have indicated that the tool, in its current formulation, can significantly improve the fluency and flexibility of idea generation and the usefulness of ideas, as well as slightly increase the originality of ideas, for the case study concerned.
+
+
+# summary: An optional shortened abstract.
+
+tags:
+  - Publication
+  - SCI
+featured: false
+
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#   focal_point: ''
+#   preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: 
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides:
+---
+<!-- 
+{{% callout note %}}
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/). -->

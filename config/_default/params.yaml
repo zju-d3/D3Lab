@@ -49,6 +49,15 @@ footer:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  icp:
+    enable: true
+    text: "浙ICP备2025148205号"
+    link: "https://beian.miit.gov.cn"
+  police:
+    enable: true
+    text: "浙公网安备33010602013851号"
+    link: "https://beian.mps.gov.cn/#/query/webSearch?code=33010602013851"
+
 # Localization
 
 locale:

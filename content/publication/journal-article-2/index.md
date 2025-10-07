@@ -1,7 +1,7 @@
 ---
 title: 'WikiLink: An Encyclopedia-Based Semantic Network for Design Creativity'
 authors:
-  - Zuo H
+  - Haoyu Zuo
   - jqz
   - 陈柳青
   - et al
@@ -31,6 +31,7 @@ abstract: Data-driven design is a process to reuse data sources and provide valu
 
 tags:
   - Publication
+  - SSCI
 featured: false
 
 links:

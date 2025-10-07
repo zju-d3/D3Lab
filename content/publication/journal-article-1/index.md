@@ -2,8 +2,8 @@
 title: 'UI Layers Merger: Merging UI layers via Visual Learning and Boundary Prior'
 authors:
   - cyn
-  - Zhen Yankun
-  - Shi chuning
+  - Yankun Zhen
+  - Chuning Shi
   - ljz
   - 陈柳青
   - et al
@@ -11,7 +11,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 date: '2023-03-27T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1631/FITEE.2200099'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-03-27T00:00:00Z'
@@ -34,11 +34,12 @@ abstract: With the fast-growing GUI development workload in the Internet industr
 
 tags:
   - Publication
+  - SCI
 featured: false
 
-links:
-- name: Paper Link
-  url: 'https://doi.org/10.1631/FITEE.2200099 '
+# links:
+# - name: Paper Link
+#   url: 'https://doi.org/10.1631/FITEE.2200099'
 url_pdf: 'publication/journal-article-1/journal-article-1.pdf'
 url_code: 'https://github.com/zju-d3/uilm'
 url_dataset: ''

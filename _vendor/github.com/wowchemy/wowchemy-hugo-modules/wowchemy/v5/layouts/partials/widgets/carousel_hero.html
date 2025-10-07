@@ -1,0 +1,127 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $bg := $page.Params.design.background }}
+
+{{ if $page.Params.hero_media }}
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+{{ end }}
+
+    {{ with $page.Title }}
+      <h1 class="hero-title">{{ . | markdownify }}</h1>
+    {{ end }}
+
+    {{ with $page.Content }}
+      <div class="hero-lead">{{ . }}</div>
+    {{ end }}
+
+    {{/* Call-to-action link */}}
+    {{ if $page.Params.cta.url }}
+      {{ $pack := or $page.Params.cta.icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      {{ $link := $page.Params.cta.url }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = $link | relLangURL }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+    <p class="cta-btns">
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg mb-md-1">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
+
+      {{/* Alternative Call-to-action link */}}
+      {{ if $page.Params.cta_alt.url }}
+        {{ $link := $page.Params.cta_alt.url }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = $link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt btn-lg pl-md-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{/* Call-to-action note */}}
+    {{ with $page.Params.cta_note }}
+    <p class="hero-note text-muted mb-3 mb-md-1">
+      {{ .label | markdownify | emojify | safeHTML }}
+    </p>
+    {{ end }}
+
+    {{/* Hero carousel */}}
+    {{ if $page.Params.hero_media }}
+    </div>
+    <!-- 右侧走马灯（Carousel）区域 -->
+    <div class="col-12 col-md-6">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {{ range $index, $media := $page.Params.hero_media }}
+            {{ $file := resources.Get (path.Join "media" $media) }}
+            {{ $isActive := cond (eq $index 0) "active" "" }}
+            <div class="carousel-item {{ $isActive }}">
+              {{ if in $media ".mp4" }}
+                <video class="d-block w-100 video-carousel" autoplay loop muted controls>
+                  <source src="{{ $file.RelPermalink }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              {{ else }}
+                <img src="{{ $file.RelPermalink }}" class="d-block w-100 carousel-image" alt="Slide {{ add $index 1 }}">
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+        
+        <button class="carousel-control-prev small-carousel-btn" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next small-carousel-btn" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <style>
+      .carousel-item {
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+      }
+      .carousel-item img,
+      .carousel-item video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+      }
+      .small-carousel-btn {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        width: 15px;
+        height: 15px;
+      }
+
+      .video-carousel {
+        pointer-events: auto;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+        
+    </script>
+    
+</div>
+{{ end }}

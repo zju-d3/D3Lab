@@ -4,18 +4,24 @@
 
 {{/* Workaround fact Hugo does not support GetMatch in assets dir */}}
 {{/* Hugo doesn't support image ops on SVG: https://discourse.gohugo.io/t/ho-do-i-convert-a-generic-resource-to-image-resource/22570/4 */}}
-{{ $logo := resources.Get "media/logo.png" | default (resources.Get "media/logo.svg") }}
-{{ $logo_proc := $logo }}
 
-{{/* If the type of image can be resized by Hugo, resize it given a `.size` argument to the function. */}}
-{{ if resources.Get "media/logo.png" }}
+{{ $logo_light := resources.Get "media/logo_light.png" | default (resources.Get "media/logo_light.svg") | default (resources.Get "media/logo.png") | default (resources.Get "media/logo.svg") }}
+{{ $logo_dark := resources.Get "media/logo_dark.png" | default (resources.Get "media/logo_dark.svg") | default $logo_light }}
+
+{{ if and $logo_light (ne $logo_light.MediaType.SubType "svg") }}
   {{ if eq .constraint "max_height" }}
-    {{/* Resize logo to fit specified max height. */}}
-    {{ $logo_proc = ($logo.Resize (printf "x%s" (string .size))) }}
+    {{ $logo_light = $logo_light.Resize (printf "x%s" (string .size)) }}
   {{ else }}
-    {{/* Constrain logo to fit within specified dimensions. */}}
-    {{ $logo_proc = ($logo.Fit (printf "%sx%s" (string .size) (string .size))) }}
+    {{ $logo_light = $logo_light.Fit (printf "%sx%s" (string .size) (string .size)) }}
   {{ end }}
 {{ end }}
 
-{{ return $logo_proc }}
+{{ if and $logo_dark (ne $logo_dark.MediaType.SubType "svg") }}
+  {{ if eq .constraint "max_height" }}
+    {{ $logo_dark = $logo_dark.Resize (printf "x%s" (string .size)) }}
+  {{ else }}
+    {{ $logo_dark = $logo_dark.Fit (printf "%sx%s" (string .size) (string .size)) }}
+  {{ end }}
+{{ end }}
+
+{{ return (dict "light" $logo_light "dark" $logo_dark) }}

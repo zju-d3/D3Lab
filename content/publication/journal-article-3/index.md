@@ -38,6 +38,7 @@ abstract: There are many facets to creativity, and the topic has a profound impa
 
 tags:
   - Publication
+  - SSCI
 featured: false
 
 links:
